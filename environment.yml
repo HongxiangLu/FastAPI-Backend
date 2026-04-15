@@ -1,0 +1,11 @@
+name: fastapi
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+    - fastapi
+    - uvicorn
+    - sqlmodel

@@ -205,3 +205,9 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Project specific
+# SQLite 数据库文件
+database.db
+# 本地多媒体资源文件夹（图片和视频）
+media/**
